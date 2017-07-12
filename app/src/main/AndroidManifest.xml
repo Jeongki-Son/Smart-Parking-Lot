@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="seoyunhu.version1">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="IoT Smart Park"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="IoT Smart Park"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".list"
+            android:label="Park List"
+            android:noHistory="true"></activity>
+        <activity
+            android:name=".favorite"
+            android:label="Favorite"
+            android:noHistory="true"></activity>
+        <activity
+            android:name=".activity_park1"
+            android:label="Park 1"
+            android:noHistory="true"></activity>
+        <activity
+            android:name=".activity_park2"
+            android:label="Park 2"
+            android:noHistory="true"></activity>
+        <activity
+            android:name=".activity_park3"
+            android:label="Park 3"
+            android:noHistory="true"></activity>
+        <activity
+            android:name=".activity_park4"
+            android:label="Park 4"
+            android:noHistory="true"></activity>
+        <activity
+            android:name=".activity_park5"
+            android:label="Park 5"
+            android:noHistory="true"></activity>
+    </application>
+
+</manifest>

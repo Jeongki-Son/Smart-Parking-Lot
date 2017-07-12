@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:clickable="false"
+            android:background="@drawable/bgset"
+            android:layout_margin="5dp">
+
+            <Button
+                android:id="@+id/base1"
+                android:layout_width="200dp"
+                android:layout_height="fill_parent"
+                android:background="#00000000"
+                android:onClick="p1_link_intent"
+                android:text="Park 1"
+                android:gravity="center_vertical|left" />
+
+            <TextView
+                android:id="@+id/textbar1"
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:onClick="p1_link_intent"
+                android:text="Large Text"
+                android:textAlignment="center" />
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="15dp"
+                android:button="@drawable/checkbox_custom"
+                android:onClick="clickevent1" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="@drawable/bgset"
+            android:layout_margin="5dp">
+
+            <Button
+                android:id="@+id/base2"
+                android:layout_width="200dp"
+                android:layout_height="fill_parent"
+                android:background="#00000000"
+                android:onClick="p2_link_intent"
+                android:text="Park 2"
+                android:gravity="center_vertical|left" />
+
+            <TextView
+                android:id="@+id/textbar2"
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:onClick="p2_link_intent"
+                android:text="Large Text"
+                android:textAlignment="center" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="15dp"
+                android:button="@drawable/checkbox_custom"
+                android:onClick="clickevent2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:orientation="horizontal"
+            android:background="@drawable/bgset"
+            android:layout_margin="5dp">
+
+            <Button
+                android:id="@+id/base3"
+                android:layout_width="200dp"
+                android:layout_height="fill_parent"
+                android:background="#00000000"
+                android:onClick="p3_link_intent"
+                android:text="Park 3"
+                android:gravity="center_vertical|left" />
+
+            <TextView
+                android:id="@+id/textbar3"
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:onClick="p3_link_intent"
+                android:text="Large Text"
+                android:textAlignment="center" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="15dp"
+                android:button="@drawable/checkbox_custom"
+                android:onClick="clickevent3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:orientation="horizontal"
+            android:background="@drawable/bgset"
+            android:layout_margin="5dp">
+
+            <Button
+                android:id="@+id/base4"
+                android:layout_width="200dp"
+                android:layout_height="fill_parent"
+                android:background="#00000000"
+                android:onClick="p4_link_intent"
+                android:text="Park 4"
+                android:gravity="center_vertical|left" />
+
+            <TextView
+                android:id="@+id/textbar4"
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:onClick="p4_link_intent"
+                android:text="Large Text"
+                android:textAlignment="center" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="15dp"
+                android:button="@drawable/checkbox_custom"
+                android:onClick="clickevent4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:orientation="horizontal"
+            android:background="@drawable/bgset"
+            android:layout_margin="5dp">
+
+
+            <Button
+                android:id="@+id/base5"
+                android:layout_width="200dp"
+                android:layout_height="fill_parent"
+                android:background="#00000000"
+                android:onClick="p5_link_intent"
+                android:text="Park 5"
+                android:gravity="center_vertical|left" />
+
+            <TextView
+                android:id="@+id/textbar5"
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:onClick="p5_link_intent"
+                android:text="Large Text"
+                android:textAlignment="center" />
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="15dp"
+                android:button="@drawable/checkbox_custom"
+                android:onClick="clickevent5" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refresh"
+            android:id="@+id/button18"
+            android:layout_gravity="center_horizontal"
+            android:onClick="list_refresh" />
+    </LinearLayout>
+
+</LinearLayout>

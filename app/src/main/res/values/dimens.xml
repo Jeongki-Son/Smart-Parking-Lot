@@ -1,0 +1,24 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="rowrow">20dp</dimen>
+    <dimen name="rowcul">35dp</dimen>
+    <dimen name="horirow">40dp</dimen>
+    <dimen name="horicul">25dp</dimen>
+    <dimen name="centerwidth">35dp</dimen>
+    <dimen name="centerheight">45dp</dimen>
+
+
+    <dimen name="leftmargin">6dp</dimen>
+    <dimen name="rightmargin">6dp</dimen>
+    <dimen name="topmargin">5dp</dimen>
+    <dimen name="bottomtmargin">5dp</dimen>
+    <dimen name="m3button_W">45dp</dimen>
+    <dimen name="m3button_H">80dp</dimen>
+
+    <dimen name="m3button_lay_left">20dp</dimen>
+    <dimen name="m3button_lay_right">20dp</dimen>
+
+</resources>

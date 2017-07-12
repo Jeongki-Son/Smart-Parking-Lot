@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <!-- <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+     -->
+
+    <item android:title="favor" app:showAsAction="always" android:icon="@drawable/star" android:id="@+id/favor" />
+
+    <!--
+
+    <item android:title="find" app:showAsAction="always" android:icon="@drawable/find" android:id="@+id/find"/>
+
+    -->
+
+    <item android:title="list" app:showAsAction="always" android:icon="@drawable/list" android:id="@+id/list"/>
+
+    <!--
+
+    <item android:title="car" app:showAsAction="always" android:icon="@drawable/car" android:id="@+id/car"/>
+
+    <item android:title="gear" app:showAsAction="always" android:icon="@drawable/gear" android:id="@+id/gear"/>
+
+    -->
+
+    <!--
+        <item android:title="" app:showAsAction="always" android:id="@+id/dummy1"/>
+
+            <item android:title="" app:showAsAction="always" android:id="@+id/dummy2"/>
+
+            <item android:title="" app:showAsAction="always" android:id="@+id/dummy3"/>
+
+            <item android:title="" app:showAsAction="always" android:id="@+id/dummy4"/>
+        -->
+</menu>
